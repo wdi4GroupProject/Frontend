@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({
 app.set('port', (process.env.PORT || 7000));
 
 app.get('/', function (req, res) {
-res.render('pages/index');
+res.render('/public');
 });
 
 app.listen(app.get('port'), function() {
