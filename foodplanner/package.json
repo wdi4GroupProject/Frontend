@@ -1,0 +1,25 @@
+{
+  "name": "foodplanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "jasmine-node spec --forceexit "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wdi4GroupProject/Frontend/tree/master/foodplanner"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "express-ejs-layouts": "^2.2.0",
+    "jasmine-node": "^1.14.5",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.10.2"
+  }
+}
