@@ -72,3 +72,7 @@
 .img-responsive {
     margin: 0 auto;
 }
+
+.jumbotron {
+    background-color:transparent !important;
+}

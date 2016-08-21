@@ -24,8 +24,21 @@ app.use(bodyParser.urlencoded({
 app.set('port', (process.env.PORT || 7000));
 
 app.get('/', function (req, res) {
-res.render('/public');
+res.render('./pages/index');
 });
+
+app.get('/login', function (req, res) {
+res.render('./pages/login');
+});
+
+// app.get('/mealplanner', function (req, res) {
+// res.render('./pages/mealplanner');
+// });
+
+// app.get('/recipe', function (req, res) {
+// res.render('./pages/recipe');
+// });
+
 
 app.listen(app.get('port'), function() {
   console.log('My express server is running at localhost', app.get('port'));
