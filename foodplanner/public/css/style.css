@@ -68,3 +68,7 @@
     background-color: #fff;
     border-color: #fff;
 }
+
+.img-responsive {
+    margin: 0 auto;
+}
