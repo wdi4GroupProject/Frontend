@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({
 app.set('port', (process.env.PORT || 7000));
 
 app.get('/', function (req, res) {
-res.send('Hello World!');
+res.render('pages/index');
 });
 
 app.listen(app.get('port'), function() {
