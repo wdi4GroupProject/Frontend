@@ -31,13 +31,18 @@ app.get('/login', function (req, res) {
 res.render('./pages/login');
 });
 
+
+app.get('/signup', function (req, res) {
+res.render('./pages/signup');
+});
+
 // app.get('/mealplanner', function (req, res) {
 // res.render('./pages/mealplanner');
 // });
 
-// app.get('/recipe', function (req, res) {
-// res.render('./pages/recipe');
-// });
+app.get('/recipe', function (req, res) {
+res.render('./pages/recipe');
+});
 
 
 app.listen(app.get('port'), function() {
